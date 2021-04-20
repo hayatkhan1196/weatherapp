@@ -1,0 +1,54 @@
+.box {
+  height: 400px;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 40%;
+  border-radius: 10px;
+  /* background-color: rgb(121, 226, 240); */
+  border: 1px solid #ec55ba;
+  box-shadow: #7cd5f0;
+  background-image: url("file:///C:/Users/Hayyat/Pictures/bg.jpg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;  
+}
+.box:hover {
+  border-radius: 70%;
+  /* background: #6cee52; */
+  transform: scale(1.1);
+
+  box-shadow: 0 8px 16px 0 rgb(248, 232, 88);
+}
+.inputData {
+  margin-top: 20px;
+}
+.inputField {
+  margin-left: 45px;
+  height: 30px;
+  width: 65%;
+  border-radius: 10px;
+  background-color: #f0eeee;
+ 
+}
+
+.weathApp_heading {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.location {
+  margin-left: 40px;
+}
+.temp_min_max {
+  margin-left: 40px;
+}
+.temperature {
+  margin-left: 70px;
+}
+.page_not_found {
+  text-align: center;
+}
